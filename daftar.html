@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAFTAR</title>
+    <link rel="stylesheet" type="text/css" href="style1.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <header>
+      <nav id="navigasi">
+        <img src="LOGO3.png" width="150" height="40" alt="E-GAMPONG" />
+      </nav>
+    </header>
+
+    <div class="dropdown-menu">
+      <form class="px-4 py-3">
+        <div class="mb-3">
+          <label for="exampleDropdownFormEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com" />
+        </div>
+        <div class="mb-3">
+          <label for="exampleDropdownFormPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password" />
+        </div>
+        <div class="mb-3">
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="dropdownCheck" />
+            <label class="form-check-label" for="dropdownCheck">Remember me</label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+      </form>
+      <div class="dropdown-divider"></div>
+      <a class="dropdown-item" href="#">New around here? Sign up</a>
+      <a class="dropdown-item" href="#">Forgot password?</a>
+    </div>
+
+    <div class="container">
+      <div class="title">Form Registrasi</div>
+      <div class="content">
+        <form action="#">
+          <div class="user-detail">
+            <div class="input-inbox">
+              <span class="details">Nama Lengkap</span>
+              <input type="text" class="input" placeholder="Masukkan nama lengkap" required />
+            </div>
+            <div class="input-inbox">
+              <span class="details">Username</span>
+              <input type="text" placeholder="Masukkan Username" required />
+            </div>
+            <div class="input-inbox">
+              <span class="details">Email</span>
+              <input type="email" placeholder="Masukkan Email" required />
+            </div>
+            <div class="input-inbox">
+              <span class="details">Nomor Telepon</span>
+              <input type="tel" placeholder="Masukkan Nomor Telepon" required />
+            </div>
+            <div class="input-inbox">
+              <span class="details">Password</span>
+              <input type="password" placeholder="Masukkan Password" required />
+            </div>
+            <div class="input-inbox">
+              <span class="details">Ulang Password</span>
+              <input type="password" placeholder="Ulangi Password" required />
+            </div>
+          </div>
+          <div class="gender-details">
+            <input type="radio" name="gender" id="dot-1" />
+            <input type="radio" name="gender" id="dot-2" />
+            <input type="radio" name="gender" id="dot-3" />
+            <span class="gender-title">Jenis Kelamin</span>
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Pria</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Wanita</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Lainnya</span>
+              </label>
+            </div>
+          </div>
+          <div class="bottom">
+            <a href="login.html"><input type="submit" value="Daftar" /></a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
